@@ -6,8 +6,8 @@ from langchain.vectorstores import Chroma
 from langchain.chains import RetrievalQA
 from langchain.chat_models import ChatOpenAI
 
-# Set OPEN_API_TOKEN in the env
-# export OPENAI_API_TOKEN="xxx"
+# Set OPEN_API_KEY in the env
+# export OPENAI_API_KEY="xxx"
 
 loader = WebBaseLoader("https://lilianweng.github.io/posts/2023-06-23-agent/")
 data = loader.load()
